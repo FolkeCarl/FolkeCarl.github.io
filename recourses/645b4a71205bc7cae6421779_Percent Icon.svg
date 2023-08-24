@@ -1,0 +1,17 @@
+<svg width="54" height="64" viewBox="0 0 54 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_817_910" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="12" width="50" height="43">
+<path d="M23.4444 23.032C23.4444 16.76 18.9644 12.28 12.7484 12.28C6.53244 12.28 2.05244 16.76 2.05244 23.032C2.05244 29.36 6.53244 33.784 12.7484 33.784C18.9644 33.784 23.4444 29.36 23.4444 23.032ZM45.9004 13.12H39.0684L7.98844 54H14.8204L45.9004 13.12ZM18.0124 23.032C18.0124 26.28 15.8844 28.52 12.7484 28.52C9.66844 28.52 7.54044 26.28 7.54044 23.032C7.54044 19.784 9.61244 17.544 12.7484 17.544C15.8844 17.544 18.0124 19.784 18.0124 23.032ZM51.8924 43.976C51.8924 37.704 47.4684 33.224 41.2524 33.224C34.9804 33.224 30.5564 37.704 30.5564 43.976C30.5564 50.248 34.9804 54.728 41.2524 54.728C47.4684 54.728 51.8924 50.248 51.8924 43.976ZM46.4604 43.976C46.4604 47.224 44.3324 49.464 41.2524 49.464C38.1164 49.464 35.9884 47.224 35.9884 43.976C35.9884 40.728 38.1164 38.488 41.2524 38.488C44.3324 38.488 46.4604 40.728 46.4604 43.976Z" fill="black"/>
+</mask>
+<g mask="url(#mask0_817_910)">
+<g style="mix-blend-mode:multiply" filter="url(#filter0_f_817_910)">
+<ellipse cx="26.8421" cy="33.3688" rx="10" ry="16" transform="rotate(125 26.8421 33.3688)" fill="#BE52F4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_817_910" x="-11.468" y="-2.93262" width="76.6204" height="72.6028" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="12" result="effect1_foregroundBlur_817_910"/>
+</filter>
+</defs>
+</svg>
