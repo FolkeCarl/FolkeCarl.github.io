@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: white; 
 }
@@ -55,6 +60,10 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .contact {
@@ -282,6 +291,10 @@ footer h2 {
     display: flex;
 }
 
+.get-started a {
+    text-decoration: none;
+}
+
 .get-started h6 {
     color: #5167f6;
     text-align: center;
@@ -357,17 +370,24 @@ footer h2 {
 }
 
 .twitter-follow-button {
-    padding: 6px 6px;
-    margin-left: 4px;
-    background-color: #1DA1F2;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    background-color: white;
     border: none;
     height: 32px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1DA1F2;
+    margin-right: 20px;
 }
 
 .twitter-follow-button-img {
     width: 20px;
     height: 20px;
+    margin-left: 8px;
 }
 
 .results {
@@ -450,6 +470,13 @@ footer h2 {
     border-radius: 20px;
 }
 
+.step p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #67718e;
+    letter-spacing: -.02em;
+}
+
 .money {
     padding-left: 25px;
     padding-right: 25px;
@@ -503,7 +530,7 @@ footer h2 {
 }
 
 .faq-section {
-    padding-bottom: 10%;
+    padding-bottom: 0%;
 }
 
 .wrapper {
@@ -539,8 +566,9 @@ footer h2 {
     border-radius: 20px;
   }
   
-  .accordion i {
-    font-size: 1.6rem;
+  .accordion img {
+    width: 1.6rem;
+    height: auto;
   }
   
   .active,
@@ -561,7 +589,7 @@ footer h2 {
   }
   
   .faq {
-    border: 3px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 10px 0;
     border-radius: 20px;
   }
@@ -681,12 +709,51 @@ footer h2 {
     padding-bottom: 18px;
 }
 
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.social-links a {
+    height: 32px;
+    width: 32px;
+}
+
 .twitter-follow-button-footer {
     padding: 6px 6px;
     background-color: #1DA1F2;
     border-radius: 50%;
     border: none;
     height: 32px;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.twitter-follow-button-footer img {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+.gumroad {
+    background-color: none;
+    padding: 0;
+    border: none;
+    height: 32px;
+    width: 32px;
+    margin: 0%;
+    margin-top: 16px;
+}
+
+
+
+
+.gumroad img {
+    height: 32px;
+    width: 32px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -701,6 +768,11 @@ footer h2 {
     .money {
         padding-left: 10%;
         padding-right: 10%;
+    }
+    .inquiry {
+        max-width: 75%;
+        margin: auto;
+        margin-top: 36px;
     }
 }
 
@@ -758,7 +830,7 @@ footer h2 {
     .card-text{
         padding: 0;
     }
-    nav button {
+    nav  {
         display: none;
     }
     header {
@@ -792,6 +864,29 @@ footer h2 {
     .twitter-follow-button-footer {
         margin-bottom: 30px;
     }
+    .navigate {
+        display: none;
+    }
+    .money-pic {
+        grid-template-columns: 1fr;
+    }
+    .wrapper {
+        max-width: 100% !important;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .wrapper > h1 {
+        font-size: 32px;
+    }
+    .inquiry {
+        flex-direction: column;
+    }
+    .text1 {
+        text-align: center;
+    }
+    .text1 button {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -818,3 +913,14 @@ footer h2 {
     }
 }
 
+@media only screen and (max-width: 420px) {
+    .text1 h1 {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .text1 h1 {
+        font-size: 38px;
+    }
+}
