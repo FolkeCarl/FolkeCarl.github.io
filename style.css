@@ -522,6 +522,11 @@ footer h2 {
     border-radius: 8px;
 }
 
+.money-pic h4 {
+    padding-bottom: 12px;
+    color: #2584ff;
+}
+
 .money-pic img {
     max-width: 100%;
     height: auto;
